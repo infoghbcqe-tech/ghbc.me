@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - GHB Consulting</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* Make body full height and flex column */
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Page content grows to push footer down */
+    .page-content {
+      flex: 1;
+      max-width: 1000px;
+      margin: 170px auto 50px auto;
+      padding: 0 20px;
+    }
+    
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html"><img src="images/logo.png" alt="GHB Consulting Logo" class="logo"></a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="industries.html">Industries We Serve</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-content fade-in">
+    <section class="services">
+      <h1>Our Services</h1>
+      <ul>
+        <li>
+          <h3>Market Entry & Strategy Advisory</h3>
+          <p>We support businesses to start or grow in Qatar and Africa with advice on registration, market research, and strategy.</p>
+        </li>
+        <li>
+          <h3>Government & Policy Support</h3>
+          <p>We guide clients in working with government bodies, understanding policies, and aligning with national goals.</p>
+        </li>
+        <li>
+          <h3>Partnership Development</h3>
+          <p>We connect companies and investors across Africa and the Gulf to build valuable, long-term partnerships.</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-column">
+      <h3>About GHB</h3>
+      <p>Building bridges between Qatar and Africa through trusted business advisory, strategy, and partnerships.</p>
+    </div>
+    <div class="footer-column">
+      <h3>Connect With Us</h3>
+      <p>Follow us on social media:</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+  <p class="footer-bottom">&copy; 2025 GHB Consulting | <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a></p>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
